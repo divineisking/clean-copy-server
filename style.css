@@ -28,6 +28,44 @@ pre {
   border-color: #1B0789; /* subtle blue for depth */
 }
 
+.hero{
+   background: linear-gradient( 135deg, #060724 0%, #1B0789 100% );
+   color: #ffffff;
+}
+
+.text-accent {
+  color: #ffffff;
+  text-shadow: 0 0 12px rgba(171, 155, 216, 0.35);
+}
+
+
+.hero-headline {
+
+}
+
+.btn-cta {
+  background-color: #ffffff;
+  color: #060724;
+  border: 2px solid #581EFE;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-cta:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 25px rgba(88, 30, 254, 0.35);
+}
+
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-7 {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+
 
 
 
